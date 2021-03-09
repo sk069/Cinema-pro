@@ -8,7 +8,7 @@ namespace Cinema_pro.Models
 {
     public class Show
     {
-
+        //This model class is creating page shows//
         public int Id { get; set; }
 
         [Required]

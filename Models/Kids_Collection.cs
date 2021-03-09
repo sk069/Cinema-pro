@@ -9,7 +9,7 @@ namespace Cinema_pro.Models
     public class Kids_Collection
     {
 
-        
+        //This model class is creating page Kida collection//
 
             public int Id { get; set; }
 

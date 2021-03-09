@@ -43,6 +43,7 @@ namespace Cinema_pro.Controllers
 
             return View(movie);
         }
+        //The code is creating authintication for this partivular page//
         [Authorize]
         // GET: Movies/Create
         public IActionResult Create()
@@ -65,6 +66,7 @@ namespace Cinema_pro.Controllers
             }
             return View(movie);
         }
+        //The code is creating authintication for this partivular page//
         [Authorize]
         // GET: Movies/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -116,6 +118,7 @@ namespace Cinema_pro.Controllers
             }
             return View(movie);
         }
+        //The code is creating authintication for this partivular page//
         [Authorize]
         // GET: Movies/Delete/5
         public async Task<IActionResult> Delete(int? id)

@@ -47,6 +47,7 @@ namespace Cinema_pro.Controllers
 
             return View(show);
         }
+        //The code is creating authintication for this partivular page//
         [Authorize]
         // GET: Shows/Create
         public IActionResult Create()
@@ -75,6 +76,7 @@ namespace Cinema_pro.Controllers
             ViewData["MovieId"] = new SelectList(_context.Movie, "Id", "Director", show.MovieId);
             return View(show);
         }
+        //The code is creating authintication for this partivular page//
         [Authorize]
         // GET: Shows/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -132,6 +134,7 @@ namespace Cinema_pro.Controllers
             ViewData["MovieId"] = new SelectList(_context.Movie, "Id", "Director", show.MovieId);
             return View(show);
         }
+        //The code is creating authintication for this partivular page//
         [Authorize]
         // GET: Shows/Delete/5
         public async Task<IActionResult> Delete(int? id)

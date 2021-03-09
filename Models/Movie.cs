@@ -9,7 +9,7 @@ namespace Cinema_pro.Models
     public class Movie
     {
 
-       
+       //This model class is creating page Movies//
 
             public int Id { get; set; }
 

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cinema_pro.Models
 {
+    //This model class is for creating a page Cinema//
     public class Cinema
     {
 

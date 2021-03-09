@@ -43,6 +43,7 @@ namespace Cinema_pro.Controllers
 
             return View(kids_Collection);
         }
+        //The code is creating authintication for this partivular page//
         [Authorize]
         // GET: Kids_Collection/Create
         public IActionResult Create()
@@ -65,6 +66,7 @@ namespace Cinema_pro.Controllers
             }
             return View(kids_Collection);
         }
+        //The code is creating authintication for this partivular page//
         [Authorize]
         // GET: Kids_Collection/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -116,6 +118,7 @@ namespace Cinema_pro.Controllers
             }
             return View(kids_Collection);
         }
+        //The code is creating authintication for this partivular page//
         [Authorize]
         // GET: Kids_Collection/Delete/5
         public async Task<IActionResult> Delete(int? id)
